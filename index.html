@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Photgraphy</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <!-- Banner-Slider-CSS -->
+    <link rel="stylesheet" href="css/banner-style.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    
+<style type="text/css">
+    
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(90deg, #ff003c, #c648c8);
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #ff003c;
+  background: -webkit-linear-gradient(90deg, #ff003c, #c648c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+.social-icons a.social-square:before {
+  background: linear-gradient(90deg, #7b00e0, #ae31d9);
+  border-radius: 10%;
+}
+.social-icons a.social-square:hover:before {
+  transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: scale(-180deg);
+  border-radius: 100%;
+}
+.social-icons a.social-square:hover i {
+  transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  color: #fff;
+  transform: scale(1.6);
+  -webkit-text-fill-color: #fff;
+}
+
+</style>
+
+<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+    * For full source code, visit https://mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+</head>
+
+<body style="background: linear-gradient(90deg, #980082, #07D2CD)">
+
+    <section class="content-main-w3" id="home">
+        <!--/nav-->
+        <div class="header_top_w3ls">
+            <div class="logo-wthree text-center">
+                <a class="navbar-brand" href="index.html">
+				 PhotoGraphy <span> <br><br>Pravin Pandit</span></a>
+            </div>
+
+        </div>
+        <!--//nav-->
+
+        <div class="container-fluid gallery-lightbox my-5">
+            <div class="row m-0">
+                <div class="col-lg-2 col-md-2 col-sm-3 p-0 snap-img">
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="#" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/1.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="#" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/16.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="   " data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/2.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="images/17.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/17.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3 p-0 snap-img">
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="images/3.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/3.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="images/4.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/4.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="images/18.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/18.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3 p-0 snap-img">
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/5.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/5.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/9.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/9.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="images/19.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/19.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3 p-0 snap-img">
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="images/6.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/6.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/7.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/7.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/8.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/8.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="images/20.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/20.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 p-0 snap-img">
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/10.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/10.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/12.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/12.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/21.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/21.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-2 p-0 snap-img">
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/13.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/13.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/14.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/14.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/15.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/15.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="gallery_grid1 hover08">
+                        <div class="gallery_effect" data-aos="fade-up">
+                            <a href="images/22.jpg" data-lightbox="example-set" data-title-wthree="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+                                <figure> <img src="images/22.jpg" alt=" " class="img-fluid"> </figure>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+<footer>
+
+<div class="social-container" align="center">
+    <ul class="social-icons">
+        <li><a href="https://www.instagram.com/impravin0708/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/Pravin0748"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/pravin-pandit-36744614a/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100005842156516"><i class="fa fa-facebook"></i></a></li>
+    </ul>
+  
+</div>
+  
+</footer>
+
+
+
+
+          <script src="js/jquery-2.2.3.min.js"></script>
+   
+ 
+</body>
+
+</html>
